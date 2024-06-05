@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-Logica-2</title>
+</head>
+<body>
+    <!-- SEMANTICAMENTE HABLANDO EL MAIN ES MI CONTENEDOR PRINCIPAL, DENTRO DE ESTE IRA TODO LO QUE COMPONE EL BODY, LE PUEDO AGREGAR PROPIEDADES DESDE EL CSS-->
+    <main class="main">
+        <h1> CONVERSOR DE TEMPERATURA</h1>
+        <div class="conuntainerCelcius">
+            <div>
+                <!-- Los label solo van asociados a los input (El imput es un prompt más bonito, ya que se visualiza de forma fija) -->
+                <label for="">Ingrese temperatura en grados Celsius (°C) </label>
+                <input id="gradosC" type="text">
+                <button id="botonConvertir"> ENVIAR</button>
+            </div>
+
+            <div id="resultados">
+                <div id="fahrenheit">fahrenheit</div>
+                <div id="kelvin">Kelvin</div>
+            </div>
+            <div id="error"> hola</div> 
+
+        </div>
+
+                
+    </main>
+<script src="index.js"></script>
+</body>
+</html>
